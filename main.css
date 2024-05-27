@@ -1,0 +1,121 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.montserrat-normal {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500, 700;
+    font-style: normal;
+}
+
+.fraunces{
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "SOFT" 0,
+      "WONK" 0;
+}
+
+body{
+    background-color: #f2ebe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.principal{
+    display: flex;
+    border-radius: 15px;
+}
+.imagem{
+    height: 320px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.article{
+    background-color: white;
+    padding-inline-start: 1rem;
+    width: 240px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-category{
+    color: #6c6c6c;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: -5px;
+    letter-spacing: 3px;
+}
+
+.product-title{
+    font-size: 24px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+     
+}
+
+.product-description{
+    color: #6c6c6c;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding-right: 50px;                
+    font-size: 14px;
+}
+
+.preco-produto{
+    display: flex;
+    align-items: center;
+    
+}
+
+.preco-atual{
+    font-size: 24px;
+    color: #1c6b2a;
+    margin-right: 30px;
+}
+
+.preco-anterior{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #b3b3b3;
+}
+
+.separador{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c6b2a;
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.cart img{
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
